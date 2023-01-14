@@ -97,8 +97,11 @@
 #szukajPole {
     border-radius: 20px 0px 0px 20px;
 }
+#kolaz {
+}
 .kolaz-obrazy {
-    height:200px;
+    height:100%;
+    width:auto;
 }
 #liniaSeparator {
 }
