@@ -1,9 +1,10 @@
 #Desktop1 {
     /*position: relative;*/
-    width: 1440px;
+    /*width: 1440px;*/
     /*height: 2986px;*/
 
     background: #EAEAEA;
+    padding:0;
 }
 #Head {
     /*position: absolute;*/
@@ -11,13 +12,14 @@
     height: 155px;
     left: 0px;
     top: 0px;
+    background: #400808E5;
 }
 #HeadLine4 {
-    position: absolute;
+    /*position: absolute;*/
     width: 57px;
     height: 0px;
-    left: 312.5px;
-    top: 8.5px;
+    left: 313px;
+    top: -17px;
 
     border: 1px solid #FFFFFF;
     transform: rotate(90deg);
@@ -30,7 +32,7 @@
     left: 65px;
     top: 15px;
 
-    font-family: 'Inter', serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 30px;
@@ -46,5 +48,55 @@
     color: #FFFFFFBF;
 }
 #frame4 {
-    background: #400808E5;
+
+}
+#tagline {
+    /*position: absolute;*/
+    width: 475px;
+    height: 49px;
+    left: 329px;
+    top: 20px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+
+    /*color: rgba(255, 122, 0, 0.75);*/
+}
+#taglineCzesc1 {
+    color:#FF7A00BF;
+    display:flex;
+}
+#taglineCzesc2 {
+    color:#FFFFFFBF;
+    display:flex;
+}
+.navCzcionka {
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: rgba(255, 122, 0, 0.75);
+}
+#glowna {
+    /*width: 147px;
+    height: 76px;
+    left: 65px;
+    top: 96px;*/
+
+
+}
+#szukajPrzycisk {
+    background: rgba(255, 122, 0, 0.75);
+    border-radius: 0px 20px 20px 0px;
+}
+#szukajPole {
+    border-radius: 20px 0px 0px 20px;
+}
+.kolaz-obrazy {
+    height:200px;
 }

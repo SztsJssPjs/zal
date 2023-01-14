@@ -3,17 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <title>DobryDuszek</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.rtl.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.rtl.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.rtl.css">
+    <link rel="stylesheet" href="css/bootstrap-utilities.css">
+    <link rel="stylesheet" href="css/bootstrap-utilities.rtl.css">
     <link rel="stylesheet" href="css/css-index.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.esm.js"></script>
+    <script src="js/bootstrap.js"></script>
 </head>
 <body>
-    <div class="mx-auto" id="Desktop1">
-        <div class="col" id="frame4"><div class="row" id="Head">
-            <div id="logo">
-                <span id="logoCzesc1">Dobry</span>
-                <span id="logoCzesc2">Duszek</span>
+    <div class="container-lg" id="Desktop1">
+        <div class="col" id="frame4">
+            <div class="navbar" id="Head">
+                <div class="container-fluid">
+                    <div id="logo" class="navbar-brand">
+                        <span id="logoCzesc1">Dobry</span>
+                        <span id="logoCzesc2">Duszek</span>
+                    </div>
+                    <div id="HeadLine4" class="nav-item"></div>
+                    <div id="tagline" class="nav-item">
+                        <span id="taglineCzesc1">Jedzenie </span>
+                        <span id="taglineCzesc2">dla waszego domu</span>
+                    </div>
+                    <div class="navbar-item me-auto">
+                        <img src="images/fb-logo.png" class="socialMediaLogo ms-1">
+                        <img src="images/ig-logo.png" class="socialMediaLogo ms-1">
+                        <img src="images/tt-logo.png" class="socialMediaLogo ms-1">
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div id="glowna" class="navbar-item navCzcionka">Strona główna</div>
+                    <div id="ksiazka" class="navbar-item navCzcionka">Książka kucharska</div>
+                    <div id="informacja" class="navbar-item navCzcionka">Informacja</div>
+                    <div id="Forum" class="navbar-item navCzcionka">Forum</div>
+                    <!--<form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Szukaj" aria-label="Search">
+                        <button class="btn btn-success" type="submit">Szukaj</button>
+                    </form>-->
+                    <form class="d-flex"><div class="input-group d-flex">
+                        <input type="text" class="form-control" placeholder="Szukaj..." aria-label="Recipient's username" aria-describedby="basic-addon2" id="szukajPole">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button" id="szukajPrzycisk"><img src="images/lupa.png"></button>
+                        </div>
+                    </div></form>
+                    <!--<div class="input-group md-form form-sm form-2 pl-0">
+                        <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search" aria-label="Search">
+                        <div class="input-group-append">
+    <span class="input-group-text red lighten-3" id="basic-text1"><i class="fas fa-search text-grey"
+                                                                     aria-hidden="true"></i></span>
+                        </div>-->
+                </div>
             </div>
-            <div id="HeadLine4"></div>
-        </div></div>
+            <div class="row" id="kolaz">
+                <div class="col-auto kolaz-obrazy-div"><img class="kolaz-obrazy" src="images/obraz01.jpg"/></div>
+                <div class="col-auto kolaz-obrazy-div"><img class="kolaz-obrazy" src="images/obraz02.jpg"/></div>
+                <div class="col-auto kolaz-obrazy-div"><img class="kolaz-obrazy" src="images/obraz03.jpg"/></div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
